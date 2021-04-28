@@ -1,0 +1,139 @@
+p{
+    color: white;
+    position: absolute;
+    left: 52%;
+    bottom: 2%;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#centro{
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background:white;
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+#relogio{
+    width: 360px;
+    height: 360px;
+    border-radius: 360px;
+    border: 3px solid black;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 14);
+}
+#borda{
+    width: 360px;
+    height: 360px;
+    border-radius: 360px;
+    position: absolute;
+    border: rgb(54, 54, 54) 20px solid;
+    box-shadow: 0px 0px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ponteiro{
+    position: absolute;
+}
+.points{
+    position: relative;
+    height: 178px;
+}
+.pointm{
+    position: relative;
+    height: 170px;
+}
+.pointh{
+    position: relative;
+    height: 110px;
+}
+#seg1{
+    border: 1px solid white;
+    border-radius: 4px;
+    background: white;
+}
+#min1{
+    border: 2px solid white;
+    border-radius: 8px;
+    background: white;
+}
+#hor1{
+    border: 3px solid white;
+    border-radius: 12px;
+    background: white;
+}
+.marc{
+    height: 30px;
+    position: absolute;
+    border-radius: 4px;
+    background: white;
+    border: white 3px solid;
+}
+#mar01{
+    top: 25px;
+    left: 71%;
+    transform: rotate(30deg);
+}
+#mar02{
+    top: 83px;
+    left: 87%;
+    transform: rotate(60deg);
+}
+#mar03{
+    top: 162px;
+    left: 92.5%;
+    transform: rotate(90deg);
+}
+#mar04{
+    top: 239px;
+    left: 86.5%;
+    transform: rotate(120deg);
+}
+#mar05{
+    top: 297px;
+    left: 71%;
+    transform: rotate(150deg);
+}
+#mar06{
+    top: 318px;
+    left: 49%;
+    transform: rotate(180deg);
+}
+#mar07{
+    top: 297px;
+    right: 71%;
+    transform: rotate(210deg);
+}
+#mar08{
+    top: 239px;
+    right: 86.5%;
+    transform: rotate(240deg);
+}
+#mar09{
+    top: 162px;
+    right: 92.5%;
+    transform: rotate(270deg);
+}
+#mar10{
+    top: 83px;
+    right: 87%;
+    transform: rotate(300deg);
+}
+#mar11{
+    top: 25px;
+    right: 71%;
+    transform: rotate(330deg);
+}
+#mar12{
+    top: 5px;
+    left: 48.5%;
+    transform: rotate(360deg);
+}
